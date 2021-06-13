@@ -24,6 +24,7 @@ public class SuryanamskarAdapter extends RecyclerView.Adapter<SuryanamskarAdapte
 
         TextView textViewName;
         TextView textViewVersion;
+        TextView dlkgjdl;
         ImageView imageViewIcon;
         LinearLayout yogaCard;
 
