@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="84dp"
+        android:layout_height="42dp"
+        android:background="@color/purple_200"
+        android:text="@string/hello"
+        android:textColor="#F6F2F6"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/yoga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553" />
+
+    <Button
+        android:id="@+id/yoga"
+        android:layout_width="379dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/yoga"
+        android:textSize="32sp"
+        app:backgroundTint="#D394DD"
+        app:layout_constraintBottom_toTopOf="@+id/pranayama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/pranayama"
+        android:layout_width="377dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/pranayama"
+        android:textSize="32sp"
+        app:backgroundTint="#CD94D6"
+        app:layout_constraintBottom_toTopOf="@+id/meditation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Pranayama" />
+
+    <Button
+        android:id="@+id/meditation"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/meditation"
+        android:textSize="32sp"
+        app:backgroundTint="#CC8DD6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Yoga</string>
+    <string name="yoga">Yoga</string>
+    <string name="meditation">Meditation</string>
+    <string name="hello">Hello</string>
+    <string name="pranayama">Pranayama</string>
+    <string name="welcome_to_pranayama">Welcome to pranayama</string>
+    <string name="yoga_poses">Yoga poses</string>
+    <string name="nadi_shuddhi">Nadi Shuddhi</string>
+    <string name="anuloma_viloma">Anuloma - Viloma</string>
+    <string name="ujjayi">Ujjayi</string>
+
+    <string name="bridge_desc">The bridge pose \n \n\nThe pose is entered from Sarvāṅgāsana (shoulderstand), the chest being held forwards by the hands and the feet lowered to the ground behind the back, the knees remaining bent; or more easily, by lifting the back from lying supine on the ground.</string>
+    <string name="wheel_desc">The wheel pose \n\n\nIn the general form of the asana, the practitioner has hands and feet on the floor, and the abdomen arches up toward the sky.</string>
+    <string name="tree_desc">The tree pose \n\n\n From Tadasana, weight is shifted to one leg, for example, starting with the left leg. The entire sole of the foot remains in contact with the floor. The right knee is bent and the right foot placed on the left inner thigh, or in half lotus position. In either foot placement, the hips should be open, with the bent knee pointing towards the side. With the toes of the right foot pointing directly down, the left foot, center of the pelvis, shoulders and head are all vertically aligned. Hands are typically held above the head either pointed directly upwards and unclasped, or clasped together in anjali mudra. The asana is typically held for 20 to 60 seconds, returning to tadasana while exhaling, then repeating standing on the opposite leg.</string>
+    <string name="camel_desc">The camel pose \n\n\nUstrasana or Camel pose is a deep backward bend from a kneeling position; the completed pose has the hands on the heels. The backs of the feet may be flat on the floor, or the toes may be tucked under for a slightly less strong backbend.  </string>
+    <string name="downward_desc">The downward pose \n\n\nThe pose has the head down, ultimately touching the floor, with the weight of the body on the palms and the feet. The arms are stretched straight forward, shoulder width apart; the feet are a foot apart, the legs are straight, and the hips are raised as high as possible.</string>
+    <string name="warrior_desc">The warrior pose Virabhadrasana \n\n\nstarting from Tadasana, the feet are spread wide, the front foot is turned fully out, and the back foot is turned in very slightly. The body remains facing forwards, so the hips remain in line with the feet, the body sinks down into a lunge until the front knee is bent at a right angle, and the arms are extended fully with the palms down, at shoulder level. The gaze is directed straight forward over the front hand </string>
+
+    <string name="warrior_uses">Strengthens your shoulders, arms, legs, ankles and back. \n Opens yours hips, chest and lungs. \n Improves focus, balance and stability.\nEncourages good circulation and respiration. \nStretches your arms, legs, shoulders, neck, belly, groins and ankles.\n Energizes the entire body.</string>
+
+    <string name="bridge_uses">Stretches the chest, neck, and spine\nCalms the brain and helps alleviate stress and mild depression\n Stimulates abdominal organs, lungs, and thyroid\nRejuvenates tired legs\nImproves digestion\nHelps relieve the symptoms of menopause\nRelieves menstrual discomfort when done supported\nReduces anxiety, fatigue, backache, headache, and insomnia\nTherapeutic for asthma, high blood pressure, osteoporosis, and sinusitis</string>
+
+    <string name="wheel_uses">It stretches and opens up the accessory muscles used in breathing. \n It strengthens the muscles of the shoulder girdle. \nIt stretches the hip flexors. \nIt\'s a great inversion. \nIt\'s a heart-opener, which helps us maintain emotional stability.</string>
+
+    <string name="camel_uses">Stretches the entire front of the body, the ankles, thighs and groins,\nAbdomen and chest, and throat.\nStretches the deep hip flexors (psoas)\nStrengthens back muscles.\nImproves posture.\nStimulates the organs of the abdomen and neck.</string>
+
+    <string name="tree_uses">It strengthens the legs, and opens the hips.\nIt improves your neuromascular coordination.\nIt helps with balance and endurance.\nIt improves alertness and concentration.\nIt may help those who suffer from sciatica (nerve pain in the leg)</string>
+
+    <string name="downward_uses">Strengthens the whole body – upper body, arms, shoulders, abdomen and legs.\nStretches the back of the body, ankles, calves, hamstrings, spine.\nCalms the mind.\nStimulates blood circulation.\nDownward Dog is a great pose to rest the spine between strong backbends and forward bends.</string>
+</resources>

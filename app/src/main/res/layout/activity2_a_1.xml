@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:padding="16dp"
+    tools:context=".YogaPoseDescriptionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvYogaTitle"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="27dp"
+                android:background="#D394DD"
+                android:text="title"
+                android:textColor="#F8F6F6"
+                android:textSize="24sp" />
+
+
+            <ImageView
+                android:id="@+id/descImageView"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+
+                android:background="#D394DD"
+                android:src="@drawable/camel"
+                android:tag="image_tag"
+                />
+
+            <TextView
+                android:id="@+id/tvYogaDesc"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="16dp"
+                android:background="#D394DD"
+                android:text="desc"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp"
+                />
+            <TextView
+                android:id="@+id/tvUses"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:layout_marginTop="16dp"
+                android:background="#D394DD"
+                android:text="uses"
+                android:textColor="#FBFBFB"
+                android:textSize="24sp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
