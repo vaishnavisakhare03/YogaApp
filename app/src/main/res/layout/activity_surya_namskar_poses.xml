@@ -12,7 +12,6 @@
         android:orientation="vertical"
         >
 
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/suryanamskar_recycler_view"
             android:layout_width="match_parent"
@@ -20,8 +19,6 @@
             android:scrollbars="vertical"
             tools:listitem="@layout/suryanamskar_item"
             />
-
-
 
     </LinearLayout>
 
