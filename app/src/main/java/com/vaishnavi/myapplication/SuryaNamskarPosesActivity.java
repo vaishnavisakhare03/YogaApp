@@ -25,22 +25,22 @@ public class SuryaNamskarPosesActivity extends AppCompatActivity {
 
         ArrayList yogaPoseList = new ArrayList<DataModel>();
 
-        YogaPose pose1 = new YogaPose(R.drawable.brige, "Bridge Pose" , getResources().getString(R.string.bridge_desc) , getResources().getString(R.string.bridge_uses));
+        YogaPose pose1 = new YogaPose(R.drawable.brige, " Prayer pose or Pranamasana" , getResources().getString(R.string.bridge_desc) , getResources().getString(R.string.bridge_uses));
         yogaPoseList.add(pose1);
 
-        YogaPose pose2 = new YogaPose(R.drawable.camel, "Camel Pose" , getResources().getString(R.string.camel_desc) , getResources().getString(R.string.camel_uses));
+        YogaPose pose2 = new YogaPose(R.drawable.camel, "Raised arms pose or Hastauttanasana" , getResources().getString(R.string.camel_desc) , getResources().getString(R.string.camel_uses));
         yogaPoseList.add(pose2);
 
-        YogaPose pose3 = new YogaPose(R.drawable.tree, "Tree Pose" , getResources().getString(R.string.tree_desc) , getResources().getString(R.string.tree_uses));
+        YogaPose pose3 = new YogaPose(R.drawable.tree, "Hand to foot pose or Hasta Padasana" , getResources().getString(R.string.tree_desc) , getResources().getString(R.string.tree_uses));
         yogaPoseList.add(pose3);
 
-        YogaPose pose4 = new YogaPose(R.drawable.downward, "Downward Pose" , getResources().getString(R.string.downward_desc) , getResources().getString(R.string.downward_uses));
+        YogaPose pose4 = new YogaPose(R.drawable.downward, "Equestrian pose or Ashwa Sanchalanasana" , getResources().getString(R.string.downward_desc) , getResources().getString(R.string.downward_uses));
         yogaPoseList.add(pose4);
 
-        YogaPose pose5 = new YogaPose(R.drawable.warrior, "Warrior Pose", getResources().getString(R.string.warrior_desc) , getResources().getString(R.string.warrior_uses));
+        YogaPose pose5 = new YogaPose(R.drawable.warrior, "Stick pose or Dandasana", getResources().getString(R.string.warrior_desc) , getResources().getString(R.string.warrior_uses));
         yogaPoseList.add(pose5);
 
-        YogaPose pose6 = new YogaPose(R.drawable.wheel, "Wheel Pose" , getResources().getString(R.string.wheel_desc) , getResources().getString(R.string.wheel_uses));
+        YogaPose pose6 = new YogaPose(R.drawable.wheel, "Salute with eight parts or points or Ashtanga Namaskara" , getResources().getString(R.string.wheel_desc) , getResources().getString(R.string.wheel_uses));
         yogaPoseList.add(pose6);
 
 //        removedItems = new ArrayList<Integer>();
