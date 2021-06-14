@@ -63,17 +63,6 @@ public class SuryanamskarAdapter extends RecyclerView.Adapter<SuryanamskarAdapte
         LinearLayout yogaCard = holder.yogaCard;
 
         YogaPose yogaPose = dataSet.get(listPosition);
-//
-//        yogaCard.setOnClickListener( v -> {//TODO open yoga description activity
-//             Toast.makeText(context, "This is " +yogaPose.poseName,Toast.LENGTH_SHORT).show();
-//                    Intent intent = new Intent(context, YogaPoseDescriptionActivity.class);
-//                    intent.putExtra("name", yogaPose.getPoseName());
-//                    intent.putExtra("image", yogaPose.image);
-//                    intent.putExtra("description", yogaPose.getDescription());
-//                    intent.putExtra("uses", yogaPose.getUses());
-//                    context.startActivity(intent);
-//        }
-//        );
 
         textViewName.setText(dataSet.get(listPosition).getPoseName());
         imageView.setImageResource(dataSet.get(listPosition).getImage());
