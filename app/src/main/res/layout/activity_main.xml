@@ -38,25 +38,14 @@
         android:id="@+id/pranayama"
         android:layout_width="377dp"
         android:layout_height="60dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="228dp"
         android:text="@string/pranayama"
         android:textSize="32sp"
         app:backgroundTint="#CD94D6"
-        app:layout_constraintBottom_toTopOf="@+id/meditation"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Pranayama" />
 
-    <Button
-        android:id="@+id/meditation"
-        android:layout_width="370dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="120dp"
-        android:text="@string/meditation"
-        android:textSize="32sp"
-        app:backgroundTint="#CC8DD6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

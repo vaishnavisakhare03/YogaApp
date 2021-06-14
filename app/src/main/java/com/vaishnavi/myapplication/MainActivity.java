@@ -17,14 +17,10 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "This is yoga", Toast.LENGTH_SHORT).show();
     }public void Breath(View view) {
         Toast.makeText(this, "This is pranayama", Toast.LENGTH_SHORT).show();
-    }public void Meditation(View view) {
-        Toast.makeText(this, "This is Meditation", Toast.LENGTH_SHORT).show();
     }
-
 
     private Button button1;
     private Button button2;
-    private Button button3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,13 +43,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        button3 = (Button) findViewById(R.id.meditation);
-        button3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                openActivity4();
-            }
-        });
     }
 
     private void openYogaActivity() {
@@ -66,8 +55,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private void openActivity4() {
-        Intent intent = new Intent(this, Activity4.class);
-        startActivity(intent);
-    }
 }

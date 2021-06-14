@@ -9,14 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SuryaNamskarPosesActivity"></activity>
+        <activity android:name=".SuryaNamskarPosesActivity" />
         <activity android:name=".YogaPoseDescriptionActivity" />
-        <activity android:name=".Activity3_d" />
-        <activity android:name=".Activity3_c" />
-        <activity android:name=".Activity3_b" />
-        <activity android:name=".Activity3_a" />
         <activity android:name=".YogaPosesActivity" />
-        <activity android:name=".Activity4" />
         <activity android:name=".pranayamaActivity" />
         <activity android:name=".yogaactivity" />
         <activity android:name=".MainActivity">

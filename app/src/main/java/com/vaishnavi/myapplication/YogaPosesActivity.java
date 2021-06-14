@@ -5,12 +5,8 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -52,7 +48,7 @@ public class YogaPosesActivity extends AppCompatActivity {
 
 //        removedItems = new ArrayList<Integer>();
 
-        CustomAdapter adapter = new CustomAdapter(yogaPoseList, this);
+        YogaAdapter adapter = new YogaAdapter(yogaPoseList, this);
         recyclerView.setAdapter(adapter);
     }
 
