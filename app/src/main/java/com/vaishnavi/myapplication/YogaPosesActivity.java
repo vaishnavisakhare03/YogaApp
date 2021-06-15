@@ -12,8 +12,6 @@ import java.util.ArrayList;
 
 public class YogaPosesActivity extends AppCompatActivity {
 
-    private Button button;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,8 +43,6 @@ public class YogaPosesActivity extends AppCompatActivity {
 
         YogaPose pose6 = new YogaPose(R.drawable.wheel, "Wheel Pose" , getResources().getString(R.string.wheel_desc) , getResources().getString(R.string.wheel_uses));
         yogaPoseList.add(pose6);
-
-//        removedItems = new ArrayList<Integer>();
 
         YogaAdapter adapter = new YogaAdapter(yogaPoseList, this);
         recyclerView.setAdapter(adapter);

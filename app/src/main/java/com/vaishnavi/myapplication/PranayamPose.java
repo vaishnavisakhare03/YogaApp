@@ -30,14 +30,14 @@ public class PranayamPose {
         this.poseName = poseName;
     }
 
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+//    public String getDescription() {
+//        return description;
+//    }
 //
+//    public void setDescription(String description) {
+//        this.description = description;
+//    }
+////
 //    public String getUses() {
 //        return uses;
 //    }

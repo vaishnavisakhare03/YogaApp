@@ -43,8 +43,6 @@ public class SuryaNamskarPosesActivity extends AppCompatActivity {
         YogaPose pose6 = new YogaPose(R.drawable.wheel, "Salute with eight parts or points or Ashtanga Namaskara" , getResources().getString(R.string.wheel_desc) , getResources().getString(R.string.wheel_uses));
         yogaPoseList.add(pose6);
 
-//        removedItems = new ArrayList<Integer>();
-
         SuryanamskarAdapter adapter = new SuryanamskarAdapter(yogaPoseList, this);
         recyclerView.setAdapter(adapter);
     }

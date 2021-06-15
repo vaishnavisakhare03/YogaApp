@@ -15,7 +15,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 
-public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHolder> {
+public class YogaAdapter extends RecyclerView.Adapter<YogaAdapter.MyViewHolder> {
 
     private ArrayList<YogaPose> dataSet;
     private Context context;
@@ -35,7 +35,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.MyViewHold
         }
     }
 
-    public CustomAdapter(ArrayList<YogaPose> data, Context context) {
+    public YogaAdapter(ArrayList<YogaPose> data, Context context) {
         this.dataSet = data;
         this.context = context;
     }
