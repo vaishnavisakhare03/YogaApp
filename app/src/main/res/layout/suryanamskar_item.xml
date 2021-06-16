@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="https://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llYogaCard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/purple_200"
     android:orientation="vertical"
-    android:background="@color/black"
-    android:id="@+id/llYogaCard"
     android:tag="cards main container">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
-        android:layout_margin="10dp"
-        xmlns:card_view="https://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         card_view:cardBackgroundColor="@color/white"
         card_view:cardCornerRadius="10dp"
         card_view:cardElevation="5dp"
@@ -24,26 +23,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:background="@color/purple_200"
+            android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView"
-                android:tag="image_tag"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"
                 android:layout_margin="5dp"
-                android:src="@drawable/camel"/>
+                android:background="#D394DD"
+                android:src="@drawable/camel"
+                android:tag="image_tag" />
 
 
-                <TextView
-                    android:id="@+id/textViewName"
-                    android:layout_margin="16dp"
-                    android:gravity="center"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:text="Android Name"
-                    android:textAppearance="?android:attr/textAppearanceLarge"/>
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:background="#D394DD"
+                android:gravity="center"
+                android:text="Android Name"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#FAF6F6"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
 
         </LinearLayout>

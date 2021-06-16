@@ -16,9 +16,9 @@
             android:id="@+id/pranayam_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@color/purple_200"
             android:scrollbars="vertical"
-            tools:listitem="@layout/pranayam_item"
-            />
+            tools:listitem="@layout/pranayam_item" />
 
     </LinearLayout>
 

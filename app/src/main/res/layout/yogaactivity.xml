@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@color/purple_200"
         android:text="Welcome to yoga"
+        android:textColor="#F6F1F1"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -24,8 +25,8 @@
 
     <Button
         android:id="@+id/yogaposes"
-        android:layout_width="386dp"
-        android:layout_height="102dp"
+        android:layout_width="381dp"
+        android:layout_height="57dp"
         android:background="#CE72DD"
         android:text="Yoga pose"
         android:textColorHighlight="#009688"
@@ -33,19 +34,21 @@
         app:backgroundTint="#D394DD"
         app:layout_constraintBottom_toTopOf="@+id/suryanamskar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcometoyoga"
-        app:layout_constraintVertical_bias="0.605" />
+        app:layout_constraintVertical_bias="0.79" />
 
     <Button
         android:id="@+id/suryanamskar"
-        android:layout_width="382dp"
-        android:layout_height="123dp"
-        android:layout_marginBottom="180dp"
+        android:layout_width="384dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="236dp"
         android:text="Surya namskar"
         android:textSize="32sp"
         app:backgroundTint="#D394DD"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
