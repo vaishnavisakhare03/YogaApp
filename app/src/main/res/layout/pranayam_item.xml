@@ -32,7 +32,7 @@
                 android:layout_height="250dp"
                 android:layout_margin="5dp"
                 android:background="#D394DD"
-                android:src="@drawable/camel"
+                android:src="@drawable/headstand"
                 android:tag="image_tag" />
 
 

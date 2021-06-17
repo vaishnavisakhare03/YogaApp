@@ -28,26 +28,14 @@ public class pranayamaActivity extends AppCompatActivity {
 
         ArrayList yogaPoseList = new ArrayList<DataModel>();
 
-        YogaPose pose1 = new YogaPose(R.drawable.brige, "Bridge pose" , getResources().getString(R.string.bridge_desc) , getResources().getString(R.string.bridge_uses));
+        YogaPose pose1 = new YogaPose(R.drawable.kapalbhati, "Kapalabhati" , getResources().getString(R.string.kapalbhati_pranayama) , getResources().getString(R.string.treep_uses));
         yogaPoseList.add(pose1);
 
-        YogaPose pose2 = new YogaPose(R.drawable.camel, "Camel Pose" , getResources().getString(R.string.camelp_desc) , getResources().getString(R.string.camelp_uses));
+        YogaPose pose2 = new YogaPose(R.drawable.nadi, "Nadi Shuddhi Pranayam" , getResources().getString(R.string.nadi_shuddhi_pranayam) ,getResources().getString(R.string.downwardp_uses));
         yogaPoseList.add(pose2);
 
-        YogaPose pose3 = new YogaPose(R.drawable.tree, "Tree Pose" , getResources().getString(R.string.treep_desc) , getResources().getString(R.string.treep_uses));
+        YogaPose pose3 = new YogaPose(R.drawable.anulomvilom, "Anulom Vilom Pranayam", getResources().getString(R.string.anulom_vilom_pranayam) , getResources().getString(R.string.warriorp_uses));
         yogaPoseList.add(pose3);
-
-        YogaPose pose4 = new YogaPose(R.drawable.downward, "Downward Pose" , getResources().getString(R.string.downwardp_desc) , getResources().getString(R.string.downwardp_uses));
-        yogaPoseList.add(pose4);
-
-        YogaPose pose5 = new YogaPose(R.drawable.warrior, "Warrior Pose", getResources().getString(R.string.warriorp_desc) , getResources().getString(R.string.warriorp_uses));
-        yogaPoseList.add(pose5);
-
-        YogaPose pose6 = new YogaPose(R.drawable.wheel, "Wheel Pose" , getResources().getString(R.string.wheelp_desc) , getResources().getString(R.string.wheelp_uses));
-        yogaPoseList.add(pose6);
-
-//        YogaPose pose7 = new YogaPose(R.drawable.wheel, "Wheel Pose" , getResources().getString(R.string.wheelp_desc) , getResources().getString(R.string.wheelp_uses));
-//        yogaPoseList.add(pose6);
 
         PranayamAdapter adapter = new PranayamAdapter(yogaPoseList, this);
         recyclerView.setAdapter(adapter);

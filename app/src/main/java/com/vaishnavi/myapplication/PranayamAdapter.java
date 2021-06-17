@@ -42,7 +42,7 @@ public class PranayamAdapter extends RecyclerView.Adapter<PranayamAdapter.MyView
     public MyViewHolder onCreateViewHolder(ViewGroup parent,
                                            int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.pranayamaactivity, parent, false);
+                .inflate(R.layout.pranayam_item, parent, false);
 
         view.setOnClickListener(v -> {
             //TODO open yoga description activity
