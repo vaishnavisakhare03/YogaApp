@@ -68,6 +68,4 @@ public class YogaPosesActivity extends AppCompatActivity {
         YogaAdapter adapter = new YogaAdapter(yogaPoseList, this);
         recyclerView.setAdapter(adapter);
     }
-
-
 }

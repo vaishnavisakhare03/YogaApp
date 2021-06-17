@@ -41,23 +41,22 @@
             <TextView
                 android:id="@+id/tvYogaDesc"
                 android:layout_width="match_parent"
-                android:layout_height="298dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="#D394DD"
                 android:text="desc"
                 android:textColor="#FBFBFB"
-                android:textSize="24sp"
-                />
+                android:textSize="24sp" />
+
             <TextView
                 android:id="@+id/tvUses"
                 android:layout_width="match_parent"
-                android:layout_height="298dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
                 android:background="#D394DD"
                 android:text="uses"
                 android:textColor="#FBFBFB"
-                android:textSize="24sp"
-                />
+                android:textSize="24sp" />
 
         </LinearLayout>
 
