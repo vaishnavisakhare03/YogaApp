@@ -60,4 +60,8 @@
     <string name="warriorp_uses">Strengthens your shoulders, arms, legs, ankles and back. \n Opens yours hips, chest and lungs. \n Improves focus, balance and stability.\nEncourages good circulation and respiration. \nStretches your arms, legs, shoulders, neck, belly, groins and ankles.\n Energizes the entire body.</string>
     <string name="treep_uses">It strengthens the legs, and opens the hips.\nIt improves your neuromascular coordination.\nIt helps with balance and endurance.\nIt improves alertness and concentration.\nIt may help those who suffer from sciatica (nerve pain in the leg)</string>
     <string name="downwardp_uses">Strength</string>
+    <string name="home">Home</string>
+    <string name="refreshing">refresh</string>
+    <string name="help">need_help</string>
+    <string name="login">login</string>
 </resources>
